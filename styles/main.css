@@ -73,9 +73,38 @@ input {
 }
 
 
+/* testimonials */
+.testimonials {
+    display: flex;
+    border: 10px dotted yellow;
+}
+.testimonials-box {
+
+}
+/* image for testimonials */
 .angry-img {
     position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0.25;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  .testimonials-box {
+    animation: slide-in 1000ms;
+    animation-iteration-count: 5;
+  }
+
 
 
 .financePhone {
