@@ -1,0 +1,9 @@
+.ties {
+    background-color: rgb(94, 255, 0);
+}
+
+.ties-title {
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+}
