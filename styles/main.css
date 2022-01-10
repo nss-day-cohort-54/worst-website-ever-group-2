@@ -1,4 +1,69 @@
 
+
+
+
+/* christian css code */
+
+body {
+    background-image: url("https://www.dvdizzy.com/images/z/zoolander2-02.jpg");
+}
+
+.main-header {
+    flex: auto;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #000000 5px;
+    box-shadow:10px 10px 8px #888888;
+    padding: 10px;
+    width: 400px;
+    color:hsl(66, 100%, 50%);
+    background-color:indianred;
+    
+}
+
+.mugatu-pic {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.bio {
+    
+    display: flex;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #000000 5px;
+    box-shadow:10px 10px 8px #888888;
+    padding: 10px;
+    width: 400px;
+}
+
+.bio-header {
+    color:hsl(175, 98%, 48%)
+}
+.bio-body {
+    display: flex;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #000000 5px;
+    box-shadow:10px 10px 8px #888888;
+    padding: 10px;
+    width: 400px;
+    background-color: khaki;
+    color: hsl(0, 0%, 0%)
+}
+
+
+/* christian code end */
+
+
 .account-setup {
     width: 24vw;
 }
@@ -47,4 +112,3 @@ input {
     animation: move 35s linear infinite;
 
 }
-
