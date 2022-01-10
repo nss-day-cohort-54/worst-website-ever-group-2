@@ -112,3 +112,9 @@ input {
     animation: move 35s linear infinite;
 
 }
+
+@keyframes move {
+	to {
+		background-position: 4500vh;
+	}
+}
