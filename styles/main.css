@@ -13,3 +13,23 @@
             background-position: 4500vh;
         }
     }
+
+.angry-img {
+    position: fixed;
+}
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0.25;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.testimonials-box {
+    animation: slide-in 4000ms;
+    animation-iteration-count: 6;
+}
