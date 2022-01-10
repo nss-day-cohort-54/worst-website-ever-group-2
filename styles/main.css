@@ -1,8 +1,22 @@
-<<<<<<< HEAD
+
+.account-setup {
+    width: 24vw;
+}
+
+input {
+    float: right;
+}
+
+
+.angry-img {
+    position: fixed;
+}
+
 
 .financePhone {
     display: flex;
     justify-content: center;
+
 }
 
 .number {
@@ -22,7 +36,7 @@
       transform: scale(1.5);
     }
   }
-=======
+
 .prayer {
     font-family:arial black;
     font-size:50px;
@@ -31,31 +45,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
     animation: move 35s linear infinite;
+
 }
 
-    @keyframes move {
-        to {
-            background-position: 4500vh;
-        }
-    }
-
-.angry-img {
-    position: fixed;
-}
-@keyframes slide-in {
-    from {
-        transform: translateX(-100%);
-        opacity: 0.25;
-    }
-
-    to {
-        transform: translateX(0%);
-        opacity: 1;
-    }
-}
-
-.testimonials-box {
-    animation: slide-in 4000ms;
-    animation-iteration-count: 6;
-}
->>>>>>> main
